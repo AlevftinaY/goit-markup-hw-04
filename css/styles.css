@@ -336,16 +336,17 @@ padding-bottom: 120px;
     border-radius: 50%;
     background-color:var(--iris-color);
     display: block;
-    /*display: flex;
-   justify-content: center;
-   align-items: center;*/
-    
 }
 
 .team-soc-icon{
-    
+   fill: var(--hero-text-color);
+
 }
-.link {}
+
+
+
+/*
+.link {}*/
 
 
 
