@@ -429,6 +429,8 @@ padding-bottom: 120px;
     background-color: var(--navy-blue-color);
     padding: 100px 0 100px 0;
     display: flex;
+    width: 1440px;
+    margin: auto;
     
 }
 .footer-text {
@@ -440,7 +442,7 @@ padding-bottom: 120px;
     width: 264px;
 }
 .container-logo {
-    text-align: left;
+    
 }
  .logo-wiht {
     color:var(--background-color);
@@ -499,5 +501,19 @@ padding-left: 120px;
 .foot-soc-link:focus {
     background-color: #31D0AA;
 }
+
+/*--------------------------Customers--------------------*/
+
+.customers {}
+
+.cust-title {}
+
+.cust-list {}
+
+.cust-item {}
+
+.cust-link {}
+
+.cust-icon {}
 
 
