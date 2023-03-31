@@ -227,9 +227,8 @@ gap: 24px;
     padding-top: 24px;
 }
 
-.feature-icon{
-   
-}
+/*.feature-icon{
+}*/
 
 
 .feature-title {
@@ -455,9 +454,9 @@ padding-bottom: 120px;
 .container-foot{
     width: 264px;
 }
-.container-logo {
-    
-}
+
+/*.container-logo 
+}*/
  .logo-wiht {
     color:var(--background-color);
     color: #f4f4fd;
@@ -564,7 +563,7 @@ padding: 120px 156px;
 }
 
 .cust-icon {
-    fill: #8E8F99;
+    fill:currentColor;
 }
 
 /*.cust-item:hover,
