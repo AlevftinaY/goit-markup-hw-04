@@ -219,12 +219,26 @@ gap: 24px;
     content:"";
 }
 
+.feature-item{
+    
+
+}
+.feature-dos:hover{
+    border-color: #2E2F42;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
 .feature-dos{
     text-align: center;
     background-color: #F4F4FD;
     width: 264px;
     height: 112px;
     padding-top: 24px;
+    border: 1px solid var(--border-solid);
+    border-radius: 4px;
+    
+    margin-bottom: 8px;
 }
 
 /*.feature-icon{
@@ -311,6 +325,9 @@ padding-bottom: 120px;
     padding-bottom: 32px;
     border: 1px solid var(--border-solid);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
  .team-desc {
     line-height: 1.5;
