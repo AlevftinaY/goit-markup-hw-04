@@ -408,7 +408,6 @@ flex-basis: calc((100% - 48px) / 4);
     flex-wrap: wrap;
     gap: 48px 24px;
     flex-basis: calc((100% - 48px) / 3);
-  
 }
 
 .filtr-cnt {
@@ -436,13 +435,16 @@ flex-basis: calc((100% - 48px) / 4);
     letter-spacing: 0.02em;
 }
 
-filtr-cnt
 .menu-link {
     padding-top: 48px;
 }
+
+.filtr-projc {
+display: inline-block;
+}
  
-.filtr-cnt:hover,
-.filtr-cnt:focus{
+.filtr-projc:hover,
+.filtr-projc:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
  /*=====================Підваал======================*/
@@ -450,9 +452,6 @@ filtr-cnt
 .footer {
     background-color: var(--navy-blue-color);
     padding: 100px 0 100px 0;
-    display: flex;
-    width: 1440px;
-    margin: auto;
 }
 
 .container-foot{
